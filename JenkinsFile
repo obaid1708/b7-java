@@ -21,6 +21,11 @@ pipeline {
             sh 'mvn install'
         }
     }
+stage ('postbuild'){
+steps{
+sh 'echo "hello" >> /prac/maven/file1.txt '
     
+}
+}
 }
 }
