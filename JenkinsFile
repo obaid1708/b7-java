@@ -27,3 +27,4 @@ sh 'echo "hello" >> /prac/maven/file1.txt '
     
 }
 }
+}
